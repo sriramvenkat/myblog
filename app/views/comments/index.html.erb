@@ -4,7 +4,7 @@
   <tr>
     <th>Commenter</th>
     <th>Comment</th>
-    <th>Article</th>
+
     <th></th>
     <th></th>
     <th></th>
@@ -14,7 +14,7 @@
   <tr>
     <td><%= comment.commenter %></td>
     <td><%= comment.comment %></td>
-    <td><%= comment.article %></td>
+
     <td><%= link_to 'Show', comment %></td>
     <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
     <td><%= link_to 'Destroy', comment, :confirm => 'Are you sure?', :method => :delete %></td>
